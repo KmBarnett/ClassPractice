@@ -1,9 +1,9 @@
 class Wizard {
-  constructor({name: name, bearded: beard =true, }){
-    this.name = name
-    this.bearded = beard
-    this.isRested = true
-    this.spellsCast = 0
+  constructor({name: name, bearded: beard = true,}){
+    this.name = name;
+    this.bearded = beard;
+    this.isRested = true;
+    this.spellsCast = 0;
   }
 
   incantation(string){
